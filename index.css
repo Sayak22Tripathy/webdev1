@@ -1,0 +1,101 @@
+
+
+div.background {
+  background: url(PUBG-mobile.jpg);
+  border: 2px solid black;
+  height: 100vh;
+  
+  width: 100vw;
+}
+
+div.transbox {
+  margin-top: 10px;
+  margin-left: 12px;
+  border: 1px ;
+  opacity: 0.8;
+  width: 97vw;
+  background-color:rgba(0,0,0,0.747);
+  text-align: center;
+  border-radius: 30%;
+  font-size: 30px;
+  color: white;
+
+}
+
+
+
+#Squad
+{
+	font-size: 50px;
+
+
+}
+
+#date
+{
+	text-align: left;
+}
+
+
+.top li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: bolder;
+
+}
+.middle li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: bolder;
+   
+}
+.bottom li {
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+    font-weight: bolder;
+   
+}
+
+#payButton
+{
+	border-radius: 30%;
+	
+}
+#payment 
+{
+	text-decoration: none;
+	color: black;
+}
+
+#prizeList
+{
+
+	border-radius: 30%;
+
+}
+
+
+#payButton a:hover
+{
+	box-shadow: 0px 0px 5px 5px skyblue;
+	border-radius: 30px;
+}
+
+
+ #prizeList a:hover
+{
+	box-shadow: 0px 0px 5px 5px #FFD700;
+	border-radius: 30px;
+}
+
+#prize
+{
+	text-decoration: none;
+	color: black;
+}
+
+#spot1
+{
+	box-shadow: 0px 0px 5px 5px #FFFF00;
+	border-radius: 50px;
+}
