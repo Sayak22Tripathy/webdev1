@@ -2,14 +2,15 @@
 
 div.background {
   background: url(PUBG-mobile.jpg);
-  border: 2px solid black;
+  border: 1px,solid,black;
   height: 100vh;
-  
   width: 100vw;
+  position: static;
+  background-repeat: no-repeat;
 }
 
 div.transbox {
-  margin-top: 10px;
+  margin-top:10px;
   margin-left: 12px;
   border: 1px ;
   opacity: 0.8;
@@ -24,17 +25,28 @@ div.transbox {
 
 
 
-#Squad
+.Squad
 {
 	font-size: 50px;
+	color: white;
 
 
 }
 
-#date
+#squad
+{
+	height: auto;
+	width: auto;
+	
+	
+}
+
+.middle
 {
 	text-align: left;
 }
+
+
 
 
 .top li {
@@ -59,7 +71,10 @@ div.transbox {
 #payButton
 {
 	border-radius: 30%;
-	
+	width: 150px;
+	height: auto;
+	background-color: blue;
+
 }
 #payment 
 {
@@ -71,21 +86,10 @@ div.transbox {
 {
 
 	border-radius: 30%;
+	width: 150px;
+	height: auto;
+	background-color: red;
 
-}
-
-
-#payButton a:hover
-{
-	box-shadow: 0px 0px 5px 5px skyblue;
-	border-radius: 30px;
-}
-
-
- #prizeList a:hover
-{
-	box-shadow: 0px 0px 5px 5px #FFD700;
-	border-radius: 30px;
 }
 
 #prize
@@ -97,5 +101,6 @@ div.transbox {
 #spot1
 {
 	box-shadow: 0px 0px 5px 5px #FFFF00;
-	border-radius: 50px;
+	border-radius: 50px 50px;
+
 }
