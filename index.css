@@ -1,12 +1,14 @@
 
 
 div.background {
-  background: url(PUBG-mobile.jpg);
+  background: url(back.jpeg);
   border: 1px,solid,black;
-  height: 100vh;
+  height: auto;
   width: auto;
   background-attachment: fixed;
   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 div.transbox {
