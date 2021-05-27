@@ -5,7 +5,7 @@ div.background {
   border: 1px,solid,black;
   height: 100vh;
   width: auto;
-  position: static;
+  background-attachment: fixed;
   background-repeat: no-repeat;
 }
 
@@ -40,6 +40,11 @@ div.transbox {
 	
 	
 }
+#money
+{
+	font-size: 55px;
+}
+
 
 .middle
 {
@@ -74,12 +79,14 @@ div.transbox {
 	width: 250px;
 	height: 100px;
 	background-color: blue;
+	
 
 }
 #payment 
 {
 	text-decoration: none;
-	color: black;
+	color: white;
+
 }
 
 #prizeList
@@ -95,12 +102,14 @@ div.transbox {
 #prize
 {
 	text-decoration: none;
-	color: black;
+	color: white;
 }
 
 #spot1
 {
 	box-shadow: 0px 0px 5px 5px #FFFF00;
 	border-radius: 50px 50px;
+	font-size: 60px;
+	left :50%;
 
 }
