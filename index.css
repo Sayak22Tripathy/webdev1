@@ -84,7 +84,7 @@ div.transbox {
 	
 
 }
-#payment 
+#payment1 , #payment2 , #payment3,#payment4,#payment5,#payment6,#payment7
 {
 	text-decoration: none;
 	color: white;
@@ -107,7 +107,7 @@ div.transbox {
 	color: white;
 }
 
-#spot1
+#spot1, #spot2,#spot3,#spot4,#spot5,#spot6,#spot7
 {
 	box-shadow: 0px 0px 5px 5px #FFFF00;
 	border-radius: 50px 50px;
