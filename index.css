@@ -35,13 +35,18 @@ div.transbox {
 
 }
 
-#squad
+#squad img
 {
-	height: auto;
-	width: auto;
-	
+	border-radius: 50px;
 	
 }
+
+#map i
+{
+	font-size: 55px;
+}
+
+
 #money
 {
 	font-size: 55px;
