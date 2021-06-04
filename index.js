@@ -1,5 +1,3 @@
-
-
 var pay1 = document.getElementById('payment1');
 var spot_left1 = document.getElementById('spot1');
 var count1 = 50;
@@ -8,13 +6,13 @@ function main1(event1) {
     count1--;
     console.log(count1);
     spot_left1.innerText = count1;
-    if (count1<=-1) {
-    	spot_left1.innerText = "0";
-    	console.log("full");
-    	pay1.innerText = "Full";
-    	event1.preventDefault();
+    if (count1 <= -1) {
+        spot_left1.innerText = "0";
+        console.log("full");
+        pay1.innerText = "Full";
+        event1.preventDefault();
     }
-    
+
 }
 pay1.addEventListener('click', main1);
 
@@ -27,13 +25,13 @@ function main2(event2) {
     count2--;
     console.log(count2);
     spot_left2.innerText = count2;
-    if (count2<=-1) {
-    	spot_left2.innerText = "0";
-    	console.log("full");
-    	pay2.innerText = "Full";
-    	event2.preventDefault();
+    if (count2 <= -1) {
+        spot_left2.innerText = "0";
+        console.log("full");
+        pay2.innerText = "Full";
+        event2.preventDefault();
     }
-    
+
 }
 pay2.addEventListener('click', main2);
 
@@ -46,13 +44,13 @@ function main3(event3) {
     count3--;
     console.log(count3);
     spot_left3.innerText = count3;
-    if (count3<=-1) {
-    	spot_left3.innerText = "0";
-    	console.log("full");
-    	pay3.innerText = "Full";
-    	event3.preventDefault();
+    if (count3 <= -1) {
+        spot_left3.innerText = "0";
+        console.log("full");
+        pay3.innerText = "Full";
+        event3.preventDefault();
     }
-    
+
 }
 pay3.addEventListener('click', main3);
 
@@ -65,13 +63,13 @@ function main4(event4) {
     count4--;
     console.log(count4);
     spot_left4.innerText = count4;
-    if (count4<=-1) {
-    	spot_left4.innerText = "0";
-    	console.log("full");
-    	pay4.innerText = "Full";
-    	event4.preventDefault();
+    if (count4 <= -1) {
+        spot_left4.innerText = "0";
+        console.log("full");
+        pay4.innerText = "Full";
+        event4.preventDefault();
     }
-    
+
 }
 pay4.addEventListener('click', main4);
 
@@ -85,13 +83,13 @@ function main5(event5) {
     count5--;
     console.log(count5);
     spot_left5.innerText = count5;
-    if (count5<=-1) {
-    	spot_left5.innerText = "0";
-    	console.log("full");
-    	pay5.innerText = "Full";
-    	event5.preventDefault();
+    if (count5 <= -1) {
+        spot_left5.innerText = "0";
+        console.log("full");
+        pay5.innerText = "Full";
+        event5.preventDefault();
     }
-    
+
 }
 pay5.addEventListener('click', main5);
 
@@ -105,13 +103,13 @@ function main6(event6) {
     count6--;
     console.log(count6);
     spot_left6.innerText = count6;
-    if (count6<=-1) {
-    	spot_left6.innerText = "0";
-    	console.log("full");
-    	pay6.innerText = "Full";
-    	event6.preventDefault();
+    if (count6 <= -1) {
+        spot_left6.innerText = "0";
+        console.log("full");
+        pay6.innerText = "Full";
+        event6.preventDefault();
     }
-    
+
 }
 pay6.addEventListener('click', main6);
 
@@ -125,13 +123,13 @@ function main7(event7) {
     count7--;
     console.log(count7);
     spot_left7.innerText = count7;
-    if (count7<=-1) {
-    	spot_left7.innerText = "0";
-    	console.log("full");
-    	pay7.innerText = "Full";
-    	event7.preventDefault();
+    if (count7 <= -1) {
+        spot_left7.innerText = "0";
+        console.log("full");
+        pay7.innerText = "Full";
+        event7.preventDefault();
     }
-    
+
 }
 pay7.addEventListener('click', main7);
 
@@ -144,13 +142,13 @@ function main8(event8) {
     count8--;
     console.log(count8);
     spot_left8.innerText = count8;
-    if (count8<=-1) {
-    	spot_left8.innerText = "0";
-    	console.log("full");
-    	pay8.innerText = "Full";
-    	event8.preventDefault();
+    if (count8 <= -1) {
+        spot_left8.innerText = "0";
+        console.log("full");
+        pay8.innerText = "Full";
+        event8.preventDefault();
     }
-    
+
 }
 pay8.addEventListener('click', main8);
 
@@ -162,13 +160,13 @@ function main9(event9) {
     count9--;
     console.log(count9);
     spot_left9.innerText = count9;
-    if (count9<=-1) {
-    	spot_left9.innerText = "0";
-    	console.log("full");
-    	pay9.innerText = "Full";
-    	event9.preventDefault();
+    if (count9 <= -1) {
+        spot_left9.innerText = "0";
+        console.log("full");
+        pay9.innerText = "Full";
+        event9.preventDefault();
     }
-    
+
 }
 pay9.addEventListener('click', main9);
 
@@ -180,13 +178,13 @@ function main10(event10) {
     count10--;
     console.log(count10);
     spot_left10.innerText = count10;
-    if (count10<=-1) {
-    	spot_left10.innerText = "0";
-    	console.log("full");
-    	pay10.innerText = "Full";
-    	event10.preventDefault();
+    if (count10 <= -1) {
+        spot_left10.innerText = "0";
+        console.log("full");
+        pay10.innerText = "Full";
+        event10.preventDefault();
     }
-    
+
 }
 pay10.addEventListener('click', main10);
 
@@ -198,13 +196,13 @@ function main11(event11) {
     count11--;
     console.log(count11);
     spot_left11.innerText = count11;
-    if (count11<=-1) {
-    	spot_left11.innerText = "0";
-    	console.log("full");
-    	pay11.innerText = "Full";
-    	event11.preventDefault();
+    if (count11 <= -1) {
+        spot_left11.innerText = "0";
+        console.log("full");
+        pay11.innerText = "Full";
+        event11.preventDefault();
     }
-    
+
 }
 pay11.addEventListener('click', main11);
 
@@ -216,13 +214,13 @@ function main12(event12) {
     count12--;
     console.log(count12);
     spot_left12.innerText = count12;
-    if (count12<=-1) {
-    	spot_left12.innerText = "0";
-    	console.log("full");
-    	pay12.innerText = "Full";
-    	event12.preventDefault();
+    if (count12 <= -1) {
+        spot_left12.innerText = "0";
+        console.log("full");
+        pay12.innerText = "Full";
+        event12.preventDefault();
     }
-    
+
 }
 pay12.addEventListener('click', main12);
 
@@ -234,13 +232,13 @@ function main13(event13) {
     count13--;
     console.log(count13);
     spot_left13.innerText = count13;
-    if (count13<=-1) {
-    	spot_left13.innerText = "0";
-    	console.log("full");
-    	pay13.innerText = "Full";
-    	event13.preventDefault();
+    if (count13 <= -1) {
+        spot_left13.innerText = "0";
+        console.log("full");
+        pay13.innerText = "Full";
+        event13.preventDefault();
     }
-    
+
 }
 pay13.addEventListener('click', main13);
 
@@ -252,13 +250,13 @@ function main14(event14) {
     count14--;
     console.log(count14);
     spot_left14.innerText = count14;
-    if (count14<=-1) {
-    	spot_left14.innerText = "0";
-    	console.log("full");
-    	pay14.innerText = "Full";
-    	event14.preventDefault();
+    if (count14 <= -1) {
+        spot_left14.innerText = "0";
+        console.log("full");
+        pay14.innerText = "Full";
+        event14.preventDefault();
     }
-    
+
 }
 pay14.addEventListener('click', main14);
 
@@ -270,13 +268,13 @@ function main15(event15) {
     count15--;
     console.log(count15);
     spot_left15.innerText = count15;
-    if (count15<=-1) {
-    	spot_left15.innerText = "0";
-    	console.log("full");
-    	pay15.innerText = "Full";
-    	event15.preventDefault();
+    if (count15 <= -1) {
+        spot_left15.innerText = "0";
+        console.log("full");
+        pay15.innerText = "Full";
+        event15.preventDefault();
     }
-    
+
 }
 pay15.addEventListener('click', main15);
 
@@ -288,13 +286,13 @@ function main16(event16) {
     count16--;
     console.log(count16);
     spot_left16.innerText = count16;
-    if (count16<=-1) {
-    	spot_left16.innerText = "0";
-    	console.log("full");
-    	pay16.innerText = "Full";
-    	event16.preventDefault();
+    if (count16 <= -1) {
+        spot_left16.innerText = "0";
+        console.log("full");
+        pay16.innerText = "Full";
+        event16.preventDefault();
     }
-    
+
 }
 pay16.addEventListener('click', main16);
 
@@ -306,13 +304,13 @@ function main17(event17) {
     count17--;
     console.log(count17);
     spot_left17.innerText = count17;
-    if (count17<=-1) {
-    	spot_left17.innerText = "0";
-    	console.log("full");
-    	pay17.innerText = "Full";
-    	event17.preventDefault();
+    if (count17 <= -1) {
+        spot_left17.innerText = "0";
+        console.log("full");
+        pay17.innerText = "Full";
+        event17.preventDefault();
     }
-    
+
 }
 pay17.addEventListener('click', main17);
 
@@ -324,13 +322,13 @@ function main18(event18) {
     count18--;
     console.log(count18);
     spot_left18.innerText = count18;
-    if (count18<=-1) {
-    	spot_left18.innerText = "0";
-    	console.log("full");
-    	pay18.innerText = "Full";
-    	event18.preventDefault();
+    if (count18 <= -1) {
+        spot_left18.innerText = "0";
+        console.log("full");
+        pay18.innerText = "Full";
+        event18.preventDefault();
     }
-    
+
 }
 pay18.addEventListener('click', main18);
 
@@ -342,13 +340,13 @@ function main19(event19) {
     count19--;
     console.log(count19);
     spot_left19.innerText = count19;
-    if (count19<=-1) {
-    	spot_left19.innerText = "0";
-    	console.log("full");
-    	pay19.innerText = "Full";
-    	event19.preventDefault();
+    if (count19 <= -1) {
+        spot_left19.innerText = "0";
+        console.log("full");
+        pay19.innerText = "Full";
+        event19.preventDefault();
     }
-    
+
 }
 pay19.addEventListener('click', main19);
 
@@ -360,30 +358,31 @@ function main20(event20) {
     count20--;
     console.log(count20);
     spot_left20.innerText = count20;
-    if (count20<=-1) {
-    	spot_left20.innerText = "0";
-    	console.log("full");
-    	pay20.innerText = "Full";
-    	event20.preventDefault();
+    if (count20 <= -1) {
+        spot_left20.innerText = "0";
+        console.log("full");
+        pay20.innerText = "Full";
+        event20.preventDefault();
     }
-    
+
 }
 pay20.addEventListener('click', main20);
 
 var pay21 = document.getElementById('payment21');
 var spot_left21 = document.getElementById('spot21');
-var count21= 50;
+var count21 = 50;
+
 function main21(event21) {
     count21--;
     console.log(count21);
     spot_left21.innerText = count21;
-    if (count21<=-1) {
-    	spot_left21.innerText = "0";
-    	console.log("full");
-    	pay21.innerText = "Full";
-    	event21.preventDefault();
+    if (count21 <= -1) {
+        spot_left21.innerText = "0";
+        console.log("full");
+        pay21.innerText = "Full";
+        event21.preventDefault();
     }
-    
+
 }
 pay21.addEventListener('click', main21);
 
@@ -399,36 +398,23 @@ function main22(event22) {
     count22--;
     console.log(count22);
     spot_left22.innerText = count22;
-    if (count22<=-1) {
-    	spot_left22.innerText = "0";
-    	console.log("full");
-    	pay22.innerText = "Full";
-    	event22.preventDefault();
+    if (count22 <= -1) {
+        spot_left22.innerText = "0";
+        console.log("full");
+        pay22.innerText = "Full";
+        event22.preventDefault();
     }
-    
+
 }
 pay22.addEventListener('click', main22);
 
 
 
-const hamburger_menu = document.querySelector(".hamburger-menu");
-const container = document.querySelector(".container");
-
-hamburger_menu.addEventListener("click", () => {
-  container.classList.toggle("active");
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
